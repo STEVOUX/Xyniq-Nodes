@@ -1,0 +1,87 @@
+<!-- ===========================
+FILE: faq.html
+=========================== -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAQ — XYNIQ HOSTING</title>
+  <meta name="description" content="Frequently asked questions about XYNIQ HOSTING plans, billing, and support." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/assets/logo.png">
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="/" class="brand">
+      <img src="/assets/logo.png" alt="XYNIQ logo" class="brand-logo" />
+      <span class="brand-name">XYNIQ HOSTING</span>
+    </a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/plans.html">Plans</a></li>
+        <li><a href="/faq.html">FAQ</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Frequently Asked Questions</h1>
+      <div class="faq">
+        <details open>
+          <summary>How do I buy a plan?</summary>
+          <p>All purchases are handled on our Discord. Click <a href="https://discord.gg/aJ3Ut242cp" target="_blank" rel="noopener">Open Ticket</a>, choose your plan, and our staff will set you up.</p>
+        </details>
+        <details>
+          <summary>What payment methods do you accept?</summary>
+          <p>UPI and other region-friendly methods via Discord tickets. We’ll share secure payment instructions in the ticket.</p>
+        </details>
+        <details>
+          <summary>Can I upgrade later?</summary>
+          <p>Yes. We can upgrade your plan and migrate your data with minimal downtime. Message us in your ticket.</p>
+        </details>
+        <details>
+          <summary>Do you provide backups?</summary>
+          <p>Yes—each plan includes backups as listed. You can request restores via Discord.</p>
+        </details>
+        <details>
+          <summary>Can I host any Minecraft edition?</summary>
+          <p>Yes—Java and Bedrock. Share your version, modpack, and any special requirements in the ticket.</p>
+        </details>
+        <details>
+          <summary>Do you offer development services?</summary>
+          <p>Yes! We build Discord bots/servers and full MC server setups. See <a href="/plans.html">Plans</a> or <a href="/contact.html">contact us</a>.</p>
+        </details>
+        <details>
+          <summary>Where are your servers located?</summary>
+          <p>We deploy based on demand for best latency. Ask in Discord for current regions and availability.</p>
+        </details>
+        <details>
+          <summary>Refunds?</summary>
+          <p>Please review our <a href="/terms.html">Terms of Service</a>. Refunds are handled case-by-case via support tickets.</p>
+        </details>
+      </div>
+
+      <div class="center mt">
+        <a class="btn btn-primary" href="https://discord.gg/aJ3Ut242cp" target="_blank" rel="noopener">Open Ticket on Discord</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container foot-bottom">
+      <span>© <span id="year"></span> XYNIQ HOSTING.</span>
+      <a href="https://discord.gg/aJ3Ut242cp" target="_blank" rel="noopener" class="discord-pill"><span class="dot"></span> Join our Discord</a>
+    </div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
