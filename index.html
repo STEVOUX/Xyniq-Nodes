@@ -5,13 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>XYNIQ HOSTING — Minecraft Hosting & Dev Services</title>
   <meta name="description" content="Lag-free Minecraft hosting, Discord development & MC server development. Purchase via Discord ticket." />
-  <link rel="stylesheet" href="style.css" />
+
+  <!-- ✅ Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- ✅ Styles -->
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" href="assets/logo.png">
 </head>
 <body>
   <header class="site-header">
     <a href="index.html" class="brand">
-      <img src="assets/logo.png" class="brand-logo" alt="XYNIQ logo">
+      <img src="assets/logo.png" class="brand-logo" alt="XYNIQ LOGO">
       <span class="brand-name">XYNIQ HOSTING</span>
     </a>
     <nav class="nav">
@@ -42,28 +49,28 @@
           <span>99.9% Uptime</span>
           <span>DDoS Protected</span>
           <span>Instant Setup</span>
-          <span>24/7 Support (Discord)</span>
+          <span>24/7 Support</span>
         </div>
       </div>
     </section>
 
     <section class="section">
       <div class="container grid-3">
-        <div class="card card-lite">
+        <div class="card">
           <h3>Minecraft Hosting</h3>
-          <p>Powerful RAM allocations, generous CPU, backups, databases, and multiple ports on higher tiers.</p>
+          <p>Powerful RAM, CPU, backups, databases, ports.</p>
           <a href="plans.html" class="link">See MC Plans →</a>
         </div>
 
-        <div class="card card-lite">
+        <div class="card">
           <h3>Discord Development</h3>
-          <p>Custom bots, moderation systems, ticketing, slash commands, dashboards.</p>
+          <p>Custom bots, ticketing, moderation, dashboards.</p>
           <a href="contact.html" class="link">Get a Quote →</a>
         </div>
 
-        <div class="card card-lite">
+        <div class="card">
           <h3>MC Server Development</h3>
-          <p>Plugin setup, optimization, complete server builds (Lobby/SMP/Factions/Anarchy).</p>
+          <p>SMP / PVP / Anarchy setups, plugins & optimization.</p>
           <a href="contact.html" class="link">Discuss Your Idea →</a>
         </div>
       </div>
@@ -80,20 +87,14 @@
           <article class="plan">
             <h3>Classic</h3>
             <p class="price">₹50<span>/mo</span></p>
-            <ul class="specs">
-              <li>RAM: 6GB</li><li>CPU: 120%</li><li>Disk: 20GB</li>
-              <li>Backups: 1</li><li>DB: 1</li><li>Ports: 0</li>
-            </ul>
+            <ul class="specs"><li>6GB RAM</li><li>120% CPU</li><li>20GB Disk</li><li>1 Backup</li><li>1 DB</li><li>0 Ports</li></ul>
             <a class="btn btn-primary" href="https://discord.gg/aJ3Ut242cp" target="_blank">Buy on Discord</a>
           </article>
 
           <article class="plan">
             <h3>Epic</h3>
             <p class="price">₹100<span>/mo</span></p>
-            <ul class="specs">
-              <li>RAM: 10GB</li><li>CPU: 180%</li><li>Disk: 40GB</li>
-              <li>Backups: 3</li><li>DB: 2</li><li>Ports: 1</li>
-            </ul>
+            <ul class="specs"><li>10GB RAM</li><li>180% CPU</li><li>40GB Disk</li><li>3 Backups</li><li>2 DB</li><li>1 Port</li></ul>
             <a class="btn btn-primary" href="https://discord.gg/aJ3Ut242cp" target="_blank">Buy on Discord</a>
           </article>
 
@@ -101,14 +102,11 @@
             <div class="tag">Popular</div>
             <h3>Pro</h3>
             <p class="price">₹250<span>/mo</span></p>
-            <ul class="specs">
-              <li>RAM: 16GB</li><li>CPU: 250%</li><li>Disk: 60GB</li>
-              <li>Backups: 4</li><li>DB: 2</li><li>Ports: 2</li>
-            </ul>
+            <ul class="specs"><li>16GB RAM</li><li>250% CPU</li><li>60GB Disk</li><li>4 Backups</li><li>2 DB</li><li>2 Ports</li></ul>
             <a class="btn btn-primary" href="https://discord.gg/aJ3Ut242cp" target="_blank">Buy on Discord</a>
           </article>
         </div>
-        <p class="center note">Need 24–32GB or custom specs? See <a href="plans.html">full plan list</a> or <a href="contact.html">request a custom quote</a>.</p>
+
       </div>
     </section>
   </main>
@@ -116,12 +114,10 @@
   <footer class="site-footer">
     <div class="container foot-bottom">
       <span>© <span id="year"></span> XYNIQ HOSTING</span>
-      <a href="https://discord.gg/aJ3Ut242cp" target="_blank" class="discord-pill">
-        <span class="dot"></span> Join our Discord
-      </a>
+      <a href="https://discord.gg/aJ3Ut242cp" target="_blank" class="discord-pill"><span class="dot"></span> Join Discord</a>
     </div>
   </footer>
 
-  <script src="app.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
