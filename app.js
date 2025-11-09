@@ -1,20 +1,20 @@
-<!-- ===========================
-FILE: app.js  (shared)
-=========================== -->
-// Mobile nav toggle
+// Mobile menu toggle
 const toggle = document.querySelector('.nav-toggle');
-const list = document.querySelector('.nav-list');
-if (toggle && list) {
-  toggle.addEventListener('click', () => list.classList.toggle('show'));
+const navList = document.querySelector('.nav-list');
+if (toggle && navList) {
+  toggle.addEventListener('click', () => {
+    navList.classList.toggle('show');
+  });
 }
 
-// Active nav link
-const path = location.pathname.replace(/\/+$/, '');
-document.querySelectorAll('.nav-list a').forEach(a => {
-  const href = a.getAttribute('href').replace(/\/+$/, '');
-  if (href === path || (path === '' && href === '/')) a.classList.add('active');
+// Highlight active nav link
+const current = location.pathname.split("/").pop();
+document.querySelectorAll(".nav-list a").forEach(a => {
+  if (a.getAttribute("href") === current) {
+    a.classList.add("active");
+  }
 });
 
-// Current year in footer
-const y = document.getElementById('year');
+// Footer year
+const y = document.getElementById("year");
 if (y) y.textContent = new Date().getFullYear();
