@@ -7,7 +7,7 @@ if (toggle && navList) {
   });
 }
 
-// Highlight active nav link
+// Active link highlight
 const current = location.pathname.split("/").pop();
 document.querySelectorAll(".nav-list a").forEach(a => {
   if (a.getAttribute("href") === current) {
